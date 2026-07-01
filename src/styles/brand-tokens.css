@@ -1,0 +1,47 @@
+/* =============================================================================
+   PMFI brand tokens — extracted verbatim from the landing repo (newlandingpage
+   index.css, .pmfi-landing scope). Single source of truth for shared brand
+   colors, fonts and radii. app.css consumes these; do not hand-tune values here
+   away from the landing page.
+   ============================================================================= */
+
+.pmfi-app {
+  /* ── Surfaces (deep navy editorial palette) ── */
+  --pm-bg: #060A14;          /* page background */
+  --pm-bg-raise: #0A1020;    /* raised surface */
+  --pm-panel: rgba(12, 18, 34, 0.66);
+  --pm-panel-solid: #0C1222; /* opaque panel for dense tables */
+  --pm-panel-2: #0d1426;     /* hover / nested surface */
+
+  /* ── Text ── */
+  --pm-ink: #EAEFFA;         /* primary text */
+  --pm-ink-2: #AEBBD4;       /* secondary text (readable) */
+  --pm-muted: #5E6E8C;       /* muted labels */
+  --pm-muted-2: #43506B;     /* faintest structural text */
+
+  /* ── Lines ── */
+  --pm-line: rgba(120, 142, 184, 0.16);
+  --pm-line-2: rgba(120, 142, 184, 0.30);
+
+  /* ── Mint accent (the brand accent) ── */
+  --pm-mint: #54E6AE;
+  --pm-mint-dim: rgba(84, 230, 174, 0.14);
+  --pm-mint-hover: #6cf0bd;
+  --pm-mint-ink: #04130D;    /* text on solid mint */
+  --pm-mint-glow: rgba(84, 230, 174, 0.25);
+
+  /* ── Status / data-category colors (kept for real meaning only) ── */
+  --pm-amber: #E8B25A;       /* caution / pending / illustrative */
+  --pm-ice: #7FB4FF;         /* distinct data category */
+  --pm-danger: #E06A6A;      /* error / negative */
+
+  /* ── Radii ── */
+  --pm-radius: 10px;         /* panels / cards */
+  --pm-radius-sm: 6px;       /* buttons / fields */
+  --pm-radius-xs: 4px;       /* pills / small chips */
+
+  /* ── Type ── */
+  --pm-font-display: 'Archivo', system-ui, -apple-system, sans-serif;
+  --pm-font-body: 'Archivo', system-ui, -apple-system, sans-serif;
+  --pm-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}

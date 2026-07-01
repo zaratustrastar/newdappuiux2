@@ -1,0 +1,436 @@
+{
+  "name": "PMFI Base Collateral",
+  "timestamp": "2026-06-19T13:27:32.135Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 2
+  },
+  "keywords": [
+    "pmfi",
+    "collateral",
+    "base",
+    "option-lending"
+  ],
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x4200000000000000000000000000000000000006.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "/token-logos/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
+      "name": "BankrCoin",
+      "symbol": "BNKR",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x22af33fe49fd1fa80c7149773dde5890d3c76f3b.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8,
+      "logoURI": "/token-logos/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+      "name": "Backed Coinbase Global",
+      "symbol": "bCOIN",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xD77CE6D3137342Bb5174673bDab5f51Db16fcBA3",
+      "name": "PMFI",
+      "symbol": "PMFI",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xd77ce6d3137342bb5174673bdab5f51db16fcba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xC52aeDec3374422d7510E294cfAa90799595CBa3",
+      "name": "Surplus Intelligence",
+      "symbol": "Surplus",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xc52aedec3374422d7510e294cfaa90799595cba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5F980Dcfc4c0fa3911554cf5ab288ed0eb13DBa3",
+      "name": "gitlawb",
+      "symbol": "GITLAWB",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x61d91CFF0FC9fbBDB89F505cf8a7422BF95fdba3",
+      "name": "1claw AI",
+      "symbol": "1clawAI",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x61d91cff0fc9fbbdb89f505cf8a7422bf95fdba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc46C41005A1A88B0C1491F2B542A4831D6d1EbA3",
+      "name": "ai2humanwork",
+      "symbol": "A2H",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xc46c41005a1a88b0c1491f2b542a4831d6d1eba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBf8E8f0e8866a7052F948C16508644347c57aba3",
+      "name": "aeon",
+      "symbol": "aeon",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xbf8e8f0e8866a7052f948c16508644347c57aba3.jpg"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xFa6208973ebfAeeDa0Dd96FB4dc22fC177cd3BA3",
+      "name": "AEON CITY",
+      "symbol": "AEONCITY",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xfa6208973ebfaeeda0dd96fb4dc22fc177cd3ba3.jpg"
+    },
+    {
+      "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "symbol": "AERO",
+      "name": "Aerodrome",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x940181a94a35a4569e4529a3cdfb74e38fd98631.webp",
+      "chainId": 8453
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb0DF6379ba1692841965a0745Ac1Bd3046D79bA3",
+      "name": "ATBASH",
+      "symbol": "ATBASH",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xb0df6379ba1692841965a0745ac1bd3046d79ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x696F9436B67233384889472Cd7cD58A6fB5DF4f1",
+      "name": "Avantis",
+      "symbol": "AVNT",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x696f9436b67233384889472cd7cd58a6fb5df4f1.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x931517E9502F9d52CDF6F5AC7fca7925e2A1BBA3",
+      "name": "Azzle",
+      "symbol": "AZL",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x931517e9502f9d52cdf6f5ac7fca7925e2a1bba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x07E61D8a4e197dfC269e90D7ECe1dF0D26702bA3",
+      "name": "Basemate",
+      "symbol": "BASEMATE",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x07e61d8a4e197dfc269e90d7ece1df0d26702ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBde45953042918384816CaF05772FFf5dF23DBA3",
+      "name": "Basey",
+      "symbol": "Basey",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xbde45953042918384816caf05772fff5df23dba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x778d347B2ffbadF31a2a1Be9cF42b4C7BA8b1bA3",
+      "name": "Berry Finance",
+      "symbol": "BERRY",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x778d347b2ffbadf31a2a1be9cf42b4c7ba8b1ba3.png"
+    },
+    {
+      "address": "0x7afE438411ee3959C7De6f7fB76bf9C769320bA3",
+      "symbol": "BLOCKTRONICS",
+      "name": "Blocktronics",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x7afe438411ee3959c7de6f7fb76bf9c769320ba3.webp",
+      "chainId": 8453
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA601877977340862Ca67f816eb079958E5bd0BA3",
+      "name": "BOTCOIN",
+      "symbol": "BOTCOIN",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xa601877977340862ca67f816eb079958e5bd0ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+      "name": "Brett",
+      "symbol": "BRETT",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x532f27101965dd16442e59d40670faf5ebb142e4.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5efe15C1783a5fE04ED289f3760e03afe3d6BbA3",
+      "name": "CHARON",
+      "symbol": "CHARON",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x5efe15c1783a5fe04ed289f3760e03afe3d6bba3.jpg"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x00cb1FBcA324d51325A7264d54072Bc073c28BA3",
+      "name": "Darksol",
+      "symbol": "DARKSOL",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x00cb1fbca324d51325a7264d54072bc073c28ba3.jpg"
+    },
+    {
+      "address": "0x3ec2156D4c0A9CBdAB4a016633b7BcF6a8d68Ea2",
+      "symbol": "DRB",
+      "name": "DebtReliefBot",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x3ec2156d4c0a9cbdab4a016633b7bcf6a8d68ea2.webp",
+      "chainId": 8453
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA7F63eB41779925803a3EEC30890742571e63Ba3",
+      "name": "Echo",
+      "symbol": "ECHO",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xa7f63eb41779925803a3eec30890742571e63ba3.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
+      "name": "Edel",
+      "symbol": "EDEL",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xfb31f85a8367210b2e4ed2360d2da9dc2d2ccc95.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x721B072dbb616F29eEA73ac004e03Fd4E884bba3",
+      "name": "evo",
+      "symbol": "evo",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x721b072dbb616f29eea73ac004e03fd4e884bba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x67A7CA081Dc79B45fD1FA059Cd3b8dCcA779Aba3",
+      "name": "FreeCode",
+      "symbol": "FreeCode",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x67a7ca081dc79b45fd1fa059cd3b8dcca779aba3.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x753f2af0f46361C9aE6Fc347797F99B0C9E82Ba3",
+      "name": "grantr",
+      "symbol": "grantr",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x753f2af0f46361c9ae6fc347797f99b0c9e82ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0A56431ECC9D0b39Be0b1E27e795F4C4F19D0Ba3",
+      "name": "Halo",
+      "symbol": "HALO",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x0a56431ecc9d0b39be0b1e27e795f4c4f19d0ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xD3E592E728AE3461BD97c7A6B359E1043dd83bA3",
+      "name": "Harness",
+      "symbol": "Harness",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xd3e592e728ae3461bd97c7a6b359e1043dd83ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8235EdF32a1e10Bd1867ad622915AB613664cbA3",
+      "name": "Happy Hour",
+      "symbol": "HH",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x8235edf32a1e10bd1867ad622915ab613664cba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xA382c83e2a3B79368f372c2EB9b6925ffAf45bA3",
+      "name": "HIVE",
+      "symbol": "HIVE",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xa382c83e2a3b79368f372c2eb9b6925ffaf45ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3722264aB15a1dfCe5a5af89e6547F7949A8ABA3",
+      "name": "LienFi",
+      "symbol": "LFI",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x3722264ab15a1dfce5a5af89e6547f7949a8aba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x13D858b18F5a3fFfC78b2014b4783d0a81255bA3",
+      "name": "metrpay",
+      "symbol": "METR",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x13d858b18f5a3fffc78b2014b4783d0a81255ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x9AF5Fa8e5c1f34Fc7cc7579aD6816d86DDf74BA3",
+      "name": "Money Machine",
+      "symbol": "mGDP",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x9af5fa8e5c1f34fc7cc7579ad6816d86ddf74ba3.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb942B75A602fA318ac091370D93d9143Ba345Ba3",
+      "name": "Mythos Router",
+      "symbol": "MYTHOS",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xb942b75a602fa318ac091370d93d9143ba345ba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb233BDFFD437E60fA451F62c6c09D3804d285Ba3",
+      "name": "nookplot",
+      "symbol": "NOOK",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xb233bdffd437e60fa451f62c6c09d3804d285ba3.jpg"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x799c28BAC95B3E0B26534D1e9A586511895EcBA3",
+      "name": "Orlix AI",
+      "symbol": "ORLIX",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x799c28bac95b3e0b26534d1e9a586511895ecba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2878Cfc54AabdAdD9bB5d70dD24d6b91485AFBA3",
+      "name": "Polygraph litmus",
+      "symbol": "Polygraph",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x2878cfc54aabdadd9bb5d70dd24d6b91485afba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf1e9Baa65d418A9025e1851DD2D37f1AD208bba3",
+      "name": "Ratspeak",
+      "symbol": "Ratspeak",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xf1e9baa65d418a9025e1851dd2d37f1ad208bba3.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x48834D10268f799878d2dA8AF00933C4B501fBA3",
+      "name": "RoboCo",
+      "symbol": "RoboCo",
+      "decimals": 18,
+      "logoURI": null
+    },
+    {
+      "chainId": 8453,
+      "address": "0x461d3C96D170e551611f54FA466D3D74A680AbA3",
+      "name": "Root Edge",
+      "symbol": "rootai",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x461d3c96d170e551611f54fa466d3d74a680aba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc2c1e0b7C401e6217193732272444D928646eba3",
+      "name": "SingIt",
+      "symbol": "SINGIT",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xc2c1e0b7c401e6217193732272444d928646eba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "logoURI": "/token-logos/0x311935cd80b76769bf2ecc9d8ab7635b2139cf82.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x572c4fA77623652411574c51B5dDB7e1b750AbA3",
+      "name": "Supergemma4-26b-multimodal",
+      "symbol": "SUPERGEMMA",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x572c4fa77623652411574c51b5ddb7e1b750aba3.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x39B4B879b8521d6A8C3a87cda64b969327b7fbA3",
+      "name": "Tachi",
+      "symbol": "TACHI",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x39b4b879b8521d6a8c3a87cda64b969327b7fba3.jpg"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd13BA0d625c04b8364De5e15E58Bf2eBDDA8DbA3",
+      "name": "Veilnet",
+      "symbol": "VEILNET",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xd13ba0d625c04b8364de5e15e58bf2ebdda8dba3.jpg"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+      "name": "Virtual Protocol",
+      "symbol": "VIRTUAL",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b.webp"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+      "name": "Venice Token",
+      "symbol": "VVV",
+      "decimals": 18,
+      "logoURI": "/token-logos/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1111111111166b7FE7bd91427724B487980aFc69",
+      "name": "Zora",
+      "symbol": "ZORA",
+      "decimals": 18,
+      "logoURI": "/token-logos/0x1111111111166b7fe7bd91427724b487980afc69.webp"
+    }
+  ],
+  "logoBuild": "four-manual-logos-20260619T211914Z",
+  "logosGeneratedAt": "2026-06-19T21:19:15.995365Z",
+  "localLogoCount": 48
+}
